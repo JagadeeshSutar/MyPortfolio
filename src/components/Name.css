@@ -1,0 +1,40 @@
+.nameAnimate {
+  font-size: 13rem;
+  text-align: center;
+  text-align-last: auto;
+  background-color: #222831;
+  height: 100vh;
+  color: white;
+  font-family: "Boldonse", system-ui;
+  padding-top: 30vh;
+}
+/* @keyframes appear {
+  from {
+    opacity: 1;
+    scale: 0.5;
+    clip-path: inset(0 100% 0 0);
+  }
+  to {
+    opacity: 0;
+    scale: 1;
+    clip-path: inset(0 0 0 0);
+  }
+} */
+@keyframes appear {
+  0% {
+    opacity: 0;
+    clip-path: inset(0 0 0 100%);
+  }
+  50% {
+    opacity: 1;
+    clip-path: inset(0 0 0 0);
+  }
+  100% {
+    opacity: 0;
+    clip-path: inset(0 0 100% 0);
+  }
+}
+
+.nameAnimate {
+  animation: appear 3s ease-in-out forwards;
+}

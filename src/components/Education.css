@@ -1,0 +1,63 @@
+.eduSection {
+  color: white;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  background-color: #222831;
+}
+
+.eduSection h2 {
+  /* text-align: center; */
+  font-size: 5rem;
+  text-align: center;
+}
+
+@keyframes eduDetailAnimate {
+  from {
+    opacity: 0;
+    transform: translateX(200px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.eduDetails {
+  height: 50vh;
+  padding: 50px;
+  border-radius: 20px;
+  margin-left: 50px;
+  z-index: 1;
+  background-color: #222831;
+  box-shadow: 0px 0px 20px rgba(225, 225, 225, 0.2);
+  animation: eduDetailAnimate 5s ease-out forwards;
+  animation-timeline: view();
+  animation-range: entry 0 cover 30%;
+}
+
+@keyframes eduAnimate {
+  from {
+    opacity: 0;
+    transform: translateX(-200px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.eduDetailsShadow {
+  height: 50vh;
+  padding: 50px;
+  border-radius: 20px;
+  margin-left: 50px;
+  position: absolute;
+  left: 250px;
+  margin-top: 350px;
+  z-index: 0;
+  background-color: #545c6973;
+  animation: eduAnimate 5s ease-out forwards;
+  animation-timeline: view();
+  animation-range: entry 0 cover 50%;
+}

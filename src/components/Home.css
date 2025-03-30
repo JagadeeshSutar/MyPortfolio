@@ -1,0 +1,116 @@
+h1 {
+  font-size: 25rem;
+}
+
+/* @keyframes color {
+  from {
+    background-color: white;
+  }
+  to {
+    background-color: red;
+  }
+} */
+
+.divHome {
+  width: 80vw;
+  height: 100vh;
+  color: #222831;
+
+  animation: color 5s ease-out forwards;
+  animation-timeline: view();
+  animation-range: entry 30vh cover 50%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+img {
+  width: 20vw;
+  border-radius: 50%;
+}
+
+@keyframes greet1Animation {
+  from {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+.greetingHeading h1 {
+  font-size: 5rem;
+  color: rgba(0, 0, 0, 0.727);
+  font-family: "Boldonse", system-ui;
+  animation: greet1Animation 1s ease-out forwards;
+}
+
+.greetingHeading :nth-child(2) {
+  font-size: 3rem;
+  margin: 30px 0;
+}
+
+.textSection {
+  z-index: 2;
+}
+
+@keyframes homeCircleAnimation {
+  from {
+    transform: translateX(500px);
+    border-radius: 5% 50% 5% 50%;
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    border-radius: 50% 5% 50% 5%;
+    opacity: 1;
+  }
+}
+
+.homeCircle {
+  width: 50vw;
+  height: 100vh;
+  background-color: #425777a5;
+  position: absolute;
+  border-radius: 50% 5% 50% 5%;
+  left: 100px;
+  top: 80px;
+  z-index: 0;
+  animation: homeCircleAnimation 1s ease-out forwards;
+}
+
+.resume {
+  margin-left: 15vw;
+  margin-bottom: 10vw;
+}
+
+.downloadHead {
+  font-size: 2rem;
+  margin: 30px 0;
+  color: #222831;
+}
+
+.download-btn {
+  color: white;
+  text-decoration: none;
+  background-color: #222831;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.download-btn:hover {
+  background-color: #222831bc;
+  scale: 1.1;
+  padding: 11px 21px;
+}

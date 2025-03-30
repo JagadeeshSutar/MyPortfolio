@@ -1,0 +1,161 @@
+.certification {
+  color: white;
+  height: 100%;
+  background-color: #222831;
+  width: 100vw;
+  margin: 0;
+}
+
+@keyframes certHeadAnimate {
+  from {
+    opacity: 0;
+    scale: 0.5;
+  }
+  to {
+    opacity: 1;
+    scale: 1;
+  }
+}
+
+.certHead h2 {
+  text-align: center;
+  font-size: 5rem;
+  margin-bottom: 50px;
+  text-align: center;
+  color: white;
+  margin: 100px 0;
+  animation: certHeadAnimate 5s ease-out forwards;
+  animation-timeline: view();
+  animation-range: entry 0 cover 30%;
+}
+
+.certification h1 {
+  font-size: 30px;
+  color: white;
+}
+
+@keyframes webAnimate {
+  from {
+    opacity: 0;
+    transform: translateX(200px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.web {
+  width: 70vw;
+  height: 50vh;
+  background-color: #57606d;
+  margin: 20px;
+  padding: 50px;
+  border-radius: 20px;
+  animation: webAnimate 5s ease-out forwards;
+  animation-timeline: view();
+  animation-range: entry 0 cover 30%;
+}
+
+.web:hover {
+  background-color: #57606da0;
+}
+
+@keyframes dsaAnimate {
+  from {
+    opacity: 0;
+    transform: translateX(-200px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.dsa {
+  width: 70vw;
+  height: 50vh;
+  background-color: #57606d;
+  margin: 20px;
+  padding: 50px;
+  border-radius: 20px;
+  animation: dsaAnimate 5s ease-out forwards;
+  animation-timeline: view();
+  animation-range: entry 0 cover 30%;
+  transition: all 0.3s ease;
+}
+
+.dsa:hover {
+  background-color: #57606da0;
+}
+
+.web p {
+  margin-top: 30px;
+}
+.dsa p {
+  margin-top: 30px;
+}
+
+.certificate img {
+  border-radius: 0%;
+  margin-left: 50px;
+}
+
+.certHead i {
+  color: #ffd700;
+  font-size: 70px;
+  margin: 0 30px;
+}
+
+.certContainer {
+  z-index: 2;
+}
+
+@keyframes circleOneAnimate {
+  from {
+    opacity: 0;
+    transform: translateX(-400px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.certCircle1 {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.39);
+  position: absolute;
+  left: 20px;
+  margin-top: 200px;
+  z-index: 0;
+  animation: circleOneAnimate 5s ease-out forwards;
+  animation-timeline: view();
+  animation-range: entry 0 cover 30%;
+}
+
+@keyframes circleTwoAnimate {
+  from {
+    opacity: 0;
+    transform: translateX(400px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.certCircle2 {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.39);
+  position: absolute;
+  right: 50px;
+  margin-bottom: 100px;
+  z-index: 0;
+  animation: circleTwoAnimate 5s ease-out forwards;
+  animation-timeline: view();
+  animation-range: entry 0 cover 30%;
+}

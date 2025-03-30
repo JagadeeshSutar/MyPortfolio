@@ -1,0 +1,23 @@
+.containerBody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+  /* background-color: #ffffff; */
+  color: white;
+}
+
+@keyframes colorChange {
+  from {
+    background-color: #ffffff;
+  }
+  to {
+    background-color: black;
+  }
+}
+
+.containerBody {
+  animation: colorChange linear;
+}

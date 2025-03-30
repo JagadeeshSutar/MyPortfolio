@@ -1,0 +1,104 @@
+.contactsContainer {
+  width: 100vw;
+  background-color: #222831;
+  height: 100vh;
+  margin: 0;
+}
+
+.contactsTitle {
+  color: #fff;
+  font-size: 5rem;
+  text-align: center;
+}
+
+.socialList {
+  list-style: none;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid white;
+  padding: 50px;
+}
+
+.socialsContainer {
+  margin-top: 100px;
+}
+
+.socialList li {
+  margin: 0 50px;
+}
+
+.socialList li a {
+  color: white;
+  text-decoration: none;
+}
+
+.socialsContainer li i {
+  font-size: 5rem;
+  background: transparent;
+  filter: drop-shadow(0 0 20px rgba(253, 253, 253, 0.214));
+  scale: 0.8;
+  transition: all 0.3s ease;
+}
+
+.socialsContainer li i:hover {
+  filter: drop-shadow(0 0 20px rgba(253, 253, 253, 0.5));
+  scale: 1;
+}
+
+.socialIconContainer {
+  text-align: center;
+}
+
+@keyframes githubAnimation {
+  from {
+    transform: translateY(200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.github {
+  opacity: 0;
+  animation: githubAnimation 2s ease-out forwards;
+  animation-timeline: view();
+  animation-range: entry 0 cover 30%;
+}
+
+@keyframes linkedinAnimation {
+  from {
+    transform: translateY(200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.linkedin {
+  opacity: 0;
+  animation: linkedinAnimation 2s ease-out forwards 3s;
+  animation-timeline: view();
+  animation-range: entry 0 cover 30%;
+}
+@keyframes instagramAnimation {
+  from {
+    transform: translateY(200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.instagram {
+  opacity: 0;
+  animation: instagramAnimation 2s ease-out forwards 3s;
+  animation-timeline: view();
+  animation-range: entry 0 cover 30%;
+}
