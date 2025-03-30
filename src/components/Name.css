@@ -36,5 +36,14 @@
 }
 
 .nameAnimate {
-  animation: appear 3s ease-in-out forwards;
+  animation: d 3s ease-in-out forwards;
+}
+
+@media (max-width: 576px) {
+  * {
+    animation: none;
+  }
+  .nameAnimate{
+    font-size: 25px;
+  }
 }

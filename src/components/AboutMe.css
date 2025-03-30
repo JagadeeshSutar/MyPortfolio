@@ -112,3 +112,15 @@
   animation-timeline: view();
   animation-range: entry 20 cover 30%;
 }
+
+@media (max-width: 576px) {
+  .aboutMeTag{
+    font-size: 20px;
+  }
+  .aboutMe p {
+    width: 100vw;
+  }
+  .aboutMe{
+    padding: 0;
+  }
+}

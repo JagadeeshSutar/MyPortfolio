@@ -114,3 +114,22 @@ img {
   scale: 1.1;
   padding: 11px 21px;
 }
+
+@media (max-width: 576px) {
+  .greetingHeading h1 {
+    font-size: 1rem;
+  }
+  .greetingHeading :nth-child(2) {
+    font-size: 1rem;
+  }
+  .homeCircle {
+    height: 400px;
+  }
+  .downloadHead {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  .divHome {
+  width: 100vw;
+  }
+}

@@ -66,3 +66,9 @@ form button{
 form button:hover{
   background: #624ec6;
 }
+
+@media (max-width: 576px) { 
+  .contact form{
+    width: 100%;
+  }
+}

@@ -61,3 +61,15 @@
   animation-timeline: view();
   animation-range: entry 0 cover 50%;
 }
+
+@media (max-width: 576px) {
+  .eduDetailsShadow {
+    display: none;
+  }
+  .eduSection h2{
+    font-size: 1.5rem;
+  }
+  .eduDetails{
+    width: 50vw;
+  }
+}

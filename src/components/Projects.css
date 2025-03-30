@@ -57,7 +57,7 @@
   transition: all 0.3s ease;
 }
 
-.leftProjectCardText:hover{
+.leftProjectCardText:hover {
   scale: 1.1;
 }
 
@@ -179,4 +179,10 @@
   border-radius: 0;
   margin-top: 30px;
   margin-left: 4vw;
+}
+
+@media (max-width: 576px) {
+  .leftBox {
+    display: none;
+  }
 }

@@ -5,10 +5,10 @@ function AboutMe() {
   return (
     <>
       <div className="aboutMe row">
-        <div className="col-6 heroImage">
+        <div className="col-md-6 heroImage">
           <img src="../images/jagadeesh.png" alt="My Image" />
         </div>
-        <div className="col-6">
+        <div className="col-md-6">
           <h1 className="aboutMeTag">About Me</h1>
           <p>
             "Hello, I’m Jagadeesh Sutar, a passionate Computer Science and

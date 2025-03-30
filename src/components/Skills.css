@@ -43,3 +43,18 @@
   animation-timeline: view();
   animation-range: entry 0 cover 30%;
 }
+@media (max-width: 576px) {
+  .skillSection ul{
+    padding: 0;
+  }
+  .skillSection ul li{
+    width: 25px;
+  }
+  .skillSection img { 
+    width: 25px;
+  }
+  .skillSection span {
+    font-size: 20px;
+    margin: 0;
+  }
+}

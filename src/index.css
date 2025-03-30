@@ -67,3 +67,12 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+@media (max-width: 768px) {
+  * {
+    animation: none !important; /* Disable all animations */
+    transform: none !important; /* Reset any transforms */
+    left: auto !important;
+    right: auto !important;
+  }
+}

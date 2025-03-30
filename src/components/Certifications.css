@@ -160,3 +160,14 @@
   animation-timeline: view();
   animation-range: entry 0 cover 30%;
 }
+
+
+@media (max-width: 576px) {
+  .certHead h2{
+    font-size: 1.5rem;
+  }
+  .certCircle1,.certCircle2{
+    width: 50vw;
+    height: 50vw;
+  }
+}
