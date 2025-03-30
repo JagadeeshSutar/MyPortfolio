@@ -9,12 +9,14 @@ import Education from "./Education";
 import Certifications from "./Certifications";
 import Contact from "./Contact";
 import MyContacts from "./MyContacts";
+import NavbarMenu from "./NavbarMenu";
 
 function MainContent() {
   return (
     <>
       <div className="containerBody">
         <Navbar />
+        <NavbarMenu/>
         <Home />
         <AboutMe />
         <Skills />

@@ -1,0 +1,23 @@
+.navbarMenu {
+  position: sticky;
+  top: 50px;
+  background-color: rgba(195, 41, 41, 0.134);
+}
+
+.navbar-nav a {
+  color: rgb(255, 255, 255);
+  padding: 7px 15px;
+  font-size: 14px;
+  width: 120px;
+  text-align: center;
+  background-color: rgba(37, 41, 41, 0.595);
+  margin: 0 3px;
+  border-radius: 7px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.menuContainer {
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.086);
+  border-radius: 10px;
+}

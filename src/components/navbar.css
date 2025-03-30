@@ -10,23 +10,6 @@
   border-radius: 50%;
 }
 
-/* .bg-body-tertiary {
-  background-color: rgba(255, 255, 255, 0.249) !important;
-} */
 
-.offcanvas-title{
-  font-size: 1.5rem;
-}
 
-.offcanvas{
-  width: 60vw !important;
-}
-
-.offcanvas-header{
-  border-radius: 50%;
-}
-
-.offcanvas-body{
-  background: transparent;
-}
 
