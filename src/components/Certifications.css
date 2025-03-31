@@ -6,7 +6,7 @@
   margin: 0;
 }
 
-@keyframes certHeadAnimate {
+/* @keyframes certHeadAnimate {
   from {
     opacity: 0;
     scale: 0.5;
@@ -15,7 +15,7 @@
     opacity: 1;
     scale: 1;
   }
-}
+} */
 
 .certHead h2 {
   text-align: center;
@@ -34,7 +34,7 @@
   color: white;
 }
 
-@keyframes webAnimate {
+/* @keyframes webAnimate {
   from {
     opacity: 0;
     transform: translateX(200px);
@@ -43,7 +43,7 @@
     opacity: 1;
     transform: translateX(0);
   }
-}
+} */
 
 .web {
   width: 70vw;
@@ -62,7 +62,7 @@
   background-color: #57606da0;
 }
 
-@keyframes dsaAnimate {
+/* @keyframes dsaAnimate {
   from {
     opacity: 0;
     transform: translateX(-200px);
@@ -71,7 +71,7 @@
     opacity: 1;
     transform: translateX(0);
   }
-}
+} */
 
 .dsa {
   width: 70vw;
@@ -112,7 +112,7 @@
   z-index: 2;
 }
 
-@keyframes circleOneAnimate {
+/* @keyframes circleOneAnimate {
   from {
     opacity: 0;
     transform: translateX(-400px);
@@ -121,7 +121,7 @@
     opacity: 1;
     transform: translateX(0);
   }
-}
+} */
 
 .certCircle1 {
   width: 500px;
@@ -137,7 +137,7 @@
   animation-range: entry 0 cover 30%;
 }
 
-@keyframes circleTwoAnimate {
+/* @keyframes circleTwoAnimate {
   from {
     opacity: 0;
     transform: translateX(400px);
@@ -146,7 +146,7 @@
     opacity: 1;
     transform: translateX(0);
   }
-}
+} */
 .certCircle2 {
   width: 500px;
   height: 500px;
@@ -165,9 +165,53 @@
 @media (max-width: 576px) {
   .certHead h2{
     font-size: 1.5rem;
+    margin: 30px 0;
+  }
+  .certContainer{
+    padding: 0;
   }
   .certCircle1,.certCircle2{
     width: 50vw;
     height: 50vw;
+  }
+  .certHead i{
+    font-size: 1.5rem;
+  }
+  .web h1{
+    font-size: 1.3rem;
+  }
+  .web h3{
+    font-size: 1.3rem;
+  }
+  .web{
+    width: 90vw;
+    padding: 20px;
+    height: 100%;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  .web *{
+    width: 100%;
+  }
+  .web img{
+    width: 60%;
+  }
+  .dsa h1{
+    font-size: 1.3rem;
+  }
+  .dsa h3{
+    font-size: 1.3rem;
+  }
+  .dsa{
+    width: 90vw;
+    padding: 20px;
+    height: 100%;
+    margin: 0;
+  }
+  .dsa *{
+    width: 100%;
+  }
+  .dsa img{
+    width: 60%;
   }
 }

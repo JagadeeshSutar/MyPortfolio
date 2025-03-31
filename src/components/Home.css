@@ -35,7 +35,7 @@ img {
   border-radius: 50%;
 }
 
-@keyframes greet1Animation {
+/* @keyframes greet1Animation {
   from {
     opacity: 0;
     transform: translateX(-100px);
@@ -44,7 +44,7 @@ img {
     opacity: 1;
     transform: translateX(0px);
   }
-}
+} */
 
 .greetingHeading h1 {
   font-size: 5rem;
@@ -62,7 +62,7 @@ img {
   z-index: 2;
 }
 
-@keyframes homeCircleAnimation {
+/* @keyframes homeCircleAnimation {
   from {
     transform: translateX(500px);
     border-radius: 5% 50% 5% 50%;
@@ -73,7 +73,7 @@ img {
     border-radius: 50% 5% 50% 5%;
     opacity: 1;
   }
-}
+} */
 
 .homeCircle {
   width: 50vw;
@@ -122,8 +122,12 @@ img {
   .greetingHeading :nth-child(2) {
     font-size: 1rem;
   }
+
   .homeCircle {
-    height: 400px;
+    width: 95vw;
+    height: 100vw;
+    left: 10px;
+    top: 200px;
   }
   .downloadHead {
     font-size: 1.5rem;
@@ -131,5 +135,36 @@ img {
   }
   .divHome {
   width: 100vw;
+  height: 50vh;
+  margin: 0;
+  margin-bottom: 40vh;
   }
+  .textSection{
+    width: 100vw;
+    margin-top: 0;
+    height: 50px;
+    padding: 0%;
+  }
+  .textSection p{
+    font-size: 14px;
+  }
+  .downloadHead{
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+  }
+  .resume{
+    padding: 0;
+    margin: 0;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 10px;
+    bottom: 70px;
+  }
+  .download-btn{
+    text-align: center;
+    font-size: 1rem;
+  }
+  
 }

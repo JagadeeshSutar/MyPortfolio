@@ -8,7 +8,7 @@
   /* background-color: #ffffff; */
   color: white;
 }
-
+/* 
 @keyframes colorChange {
   from {
     background-color: #ffffff;
@@ -16,7 +16,7 @@
   to {
     background-color: black;
   }
-}
+} */
 
 .containerBody {
   animation: colorChange linear;

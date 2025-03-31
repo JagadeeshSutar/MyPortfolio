@@ -22,6 +22,8 @@
 
 .socialsContainer {
   margin-top: 100px;
+  height: 100%;
+  
 }
 
 .socialList li {
@@ -50,7 +52,7 @@
   text-align: center;
 }
 
-@keyframes githubAnimation {
+/* @keyframes githubAnimation {
   from {
     transform: translateY(200px);
     opacity: 0;
@@ -59,16 +61,16 @@
     transform: translateY(0);
     opacity: 1;
   }
-}
+} */
 
 .github {
-  opacity: 0;
+  /* opacity: 0; */
   animation: githubAnimation 2s ease-out forwards;
   animation-timeline: view();
   animation-range: entry 0 cover 30%;
 }
 
-@keyframes linkedinAnimation {
+/* @keyframes linkedinAnimation {
   from {
     transform: translateY(200px);
     opacity: 0;
@@ -77,15 +79,15 @@
     transform: translateY(0);
     opacity: 1;
   }
-}
+} */
 
 .linkedin {
-  opacity: 0;
+  /* opacity: 0; */
   animation: linkedinAnimation 2s ease-out forwards 3s;
   animation-timeline: view();
   animation-range: entry 0 cover 30%;
 }
-@keyframes instagramAnimation {
+/* @keyframes instagramAnimation {
   from {
     transform: translateY(200px);
     opacity: 0;
@@ -94,23 +96,38 @@
     transform: translateY(0);
     opacity: 1;
   }
-}
+} */
 
 .instagram {
-  opacity: 0;
+  /* opacity: 0; */
   animation: instagramAnimation 2s ease-out forwards 3s;
   animation-timeline: view();
   animation-range: entry 0 cover 30%;
 }
 
 @media (max-width: 576px) {
-  .sociaList li i {
-    font-size: 2rem;
+  .contactsContainer{
+    height: 50vh;
   }
-  .socialList li{
+  .socialList li {
     margin: 0;
   }
-  .contactsTitle{
+  .contactsTitle {
     font-size: 1.5rem;
+  }
+  .socialsContainer li{
+    margin: 20px;
+  }
+  .socialsContainer li i {
+    font-size: 2rem;
+  }
+  .socialIconContainer li a{
+    font-size: 1.5rem;
+  }
+  .socialsContainer{
+    margin: 0;
+  }
+  .socialList{
+    height: 10vh;
   }
 }

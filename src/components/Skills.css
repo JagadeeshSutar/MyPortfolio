@@ -17,7 +17,7 @@
 }
 
 
-@keyframes skillSetAnimation {
+/* @keyframes skillSetAnimation {
   from {
     opacity: 0;
     scale: 0.5;
@@ -28,7 +28,7 @@
     scale: 1;
     transform: translateX(0px);
   }
-}
+} */
 
 .skillSection span {
   margin-left: 30px;
@@ -44,17 +44,35 @@
   animation-range: entry 0 cover 30%;
 }
 @media (max-width: 576px) {
+  .skillSection {
+    height: 60vh;
+  }
   .skillSection ul{
     padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
   }
   .skillSection ul li{
     width: 25px;
+    margin: 10px;
+  }
+  .skillSection ul li span{
+    text-align: center;
   }
   .skillSection img { 
     width: 25px;
+    padding: 0;
+    margin: 0;
+    width: 30px;
   }
   .skillSection span {
-    font-size: 20px;
+    font-size: 10px;
     margin: 0;
+  }
+  .skillSection h1{
+    font-size: 20px;
   }
 }

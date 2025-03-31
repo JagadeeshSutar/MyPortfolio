@@ -35,7 +35,7 @@
   margin-top: 100px;
 }
 
-@keyframes leftProjectCardTextAnimation {
+/* @keyframes leftProjectCardTextAnimation {
   from {
     transform: translateX(-200px);
     opacity: 0;
@@ -44,7 +44,7 @@
     transform: translateX(0);
     opacity: 1;
   }
-}
+} */
 .leftProjectCardText {
   color: white;
   position: absolute;
@@ -61,18 +61,18 @@
   scale: 1.1;
 }
 
-@keyframes leftBoxAnimation {
+/* @keyframes leftBoxAnimation {
   from {
     scale: 0.3;
-    /* transform: translateX(-200px); */
+    transform: translateX(-200px); Don't forget to comment this line
     opacity: 0;
   }
   to {
-    /* transform: translateX(0); */
+    transform: translateX(0);
     scale: 1;
     opacity: 1;
   }
-}
+} */
 
 .leftBox {
   width: 45vw;
@@ -99,7 +99,7 @@
   margin-top: 30px;
 }
 
-@keyframes rightProjectCardTextAnimation {
+/* @keyframes rightProjectCardTextAnimation {
   from {
     transform: translateX(200px);
     opacity: 0;
@@ -108,7 +108,7 @@
     transform: translateX(0);
     opacity: 1;
   }
-}
+} */
 
 .rightProjectCardText {
   color: white;
@@ -144,18 +144,18 @@
   cursor: pointer;
 }
 
-@keyframes rightBoxAnimation {
+/* @keyframes rightBoxAnimation {
   from {
     scale: 0.3;
-    /* transform: translateX(-200px); */
+    transform: translateX(-200px); Don't forget to comment this particular line
     opacity: 0;
   }
   to {
-    /* transform: translateX(0); */
+    transform: translateX(0);
     scale: 1;
     opacity: 1;
   }
-}
+} */
 
 .rightBox {
   width: 45vw;
@@ -183,6 +183,27 @@
 
 @media (max-width: 576px) {
   .leftBox {
-    display: none;
+    /* display: none; */
+    margin-left: 100px;
+    width: 60vw;
+  }
+  .projects h1 {
+    font-size: 20px;
+    margin: 0;
+    margin-top: 10px;
+  }
+
+  .projectCard p{
+    padding: 10px;
+    width: 56vw;
+  }
+
+  .projectCard {
+    height: 100vh;
+  }
+  .cardContainer {
+    height: 100vw;
+    width: 100vw;
+    margin-bottom: 50px;
   }
 }

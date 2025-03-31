@@ -12,7 +12,7 @@
   text-align: center;
 }
 
-@keyframes eduDetailAnimate {
+/* @keyframes eduDetailAnimate {
   from {
     opacity: 0;
     transform: translateX(200px);
@@ -21,7 +21,7 @@
     opacity: 1;
     transform: translateX(0);
   }
-}
+} */
 
 .eduDetails {
   height: 50vh;
@@ -36,7 +36,7 @@
   animation-range: entry 0 cover 30%;
 }
 
-@keyframes eduAnimate {
+/* @keyframes eduAnimate {
   from {
     opacity: 0;
     transform: translateX(-200px);
@@ -45,7 +45,7 @@
     opacity: 1;
     transform: translateX(0);
   }
-}
+} */
 
 .eduDetailsShadow {
   height: 50vh;
@@ -66,10 +66,17 @@
   .eduDetailsShadow {
     display: none;
   }
+  .eduSection{
+    height: 70vh;
+    padding-top: 50px;
+  }
   .eduSection h2{
     font-size: 1.5rem;
   }
   .eduDetails{
-    width: 50vw;
+    width: 90vw;
+    margin: 0;
+    padding-top: 50px;
+    padding: 30px;
   }
 }
