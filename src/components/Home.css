@@ -160,7 +160,7 @@ img {
     flex-direction: column;
     position: absolute;
     left: 10px;
-    bottom: 70px;
+    bottom: 30px;
   }
   .download-btn{
     text-align: center;
