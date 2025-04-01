@@ -125,9 +125,9 @@ img {
 
   .homeCircle {
     width: 95vw;
-    height: 100vw;
+    height: 90vw;
     left: 10px;
-    top: 200px;
+    top: 150px;
   }
   .downloadHead {
     font-size: 1.5rem;
@@ -160,7 +160,7 @@ img {
     flex-direction: column;
     position: absolute;
     left: 10px;
-    bottom: 30px;
+    bottom: -70px;
   }
   .download-btn{
     text-align: center;
