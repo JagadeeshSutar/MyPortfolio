@@ -66,17 +66,20 @@
   .eduDetailsShadow {
     display: none;
   }
-  .eduSection{
+  .eduSection {
     height: 70vh;
     padding-top: 50px;
   }
-  .eduSection h2{
+  .eduSection h2 {
     font-size: 1.5rem;
   }
-  .eduDetails{
+  .eduDetails {
     width: 90vw;
     margin: 0;
     padding-top: 50px;
     padding: 30px;
+  }
+  .eduDetails span {
+    display: none;
   }
 }

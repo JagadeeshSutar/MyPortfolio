@@ -2,18 +2,32 @@ import React from "react";
 import "./NavbarMenu.css";
 
 function NavbarMenu() {
+  const btnClick = () => {
+    let menuContainer = document.getElementsByClassName("menuContainer")[0];
+
+    if (menuContainer) {
+      let currentColor = window.getComputedStyle(menuContainer).backgroundColor;
+
+      if (currentColor === "rgba(0, 0, 0, 0.086)") {
+        menuContainer.style.backgroundColor = "white";
+      } else {
+        menuContainer.style.backgroundColor = "rgba(0, 0, 0, 0.086)";
+      }
+    }
+  };
   return (
     <>
       <nav class="navbar navbar-expand-lg bg-body-tertiary navbarMenu fixed-top navbarMenu">
         <div class="container-fluid menuContainer">
           <button
-            class="navbar-toggler"
+            class="navbar-toggler custom-toggler"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup"
             aria-expanded="false"
             aria-label="Toggle navigation"
+            onClick={btnClick}
           >
             <span class="navbar-toggler-icon"></span>
           </button>
