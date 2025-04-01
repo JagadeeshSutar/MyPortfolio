@@ -35,7 +35,7 @@
   margin-top: 100px;
 }
 
-/* @keyframes leftProjectCardTextAnimation {
+@keyframes leftProjectCardTextAnimation {
   from {
     transform: translateX(-200px);
     opacity: 0;
@@ -44,7 +44,7 @@
     transform: translateX(0);
     opacity: 1;
   }
-} */
+}
 .leftProjectCardText {
   color: white;
   position: absolute;
@@ -52,7 +52,7 @@
   z-index: 2;
   animation: leftProjectCardTextAnimation 3s ease-out forwards;
   animation-timeline: view();
-  animation-range: entry 0 cover 50%;
+  animation-range: entry 0 cover 80%;
   scale: 1;
   transition: all 0.3s ease;
 }
@@ -184,9 +184,9 @@
 @media (max-width: 576px) {
   .leftBox {
     margin-left: 0px;
-    width: 80vw;
+    width: 70vw;
     height: 50vh;
-    margin-left: 30px;
+    margin-left: 45px;
   }
   .rightBox {
     width: 70vw;

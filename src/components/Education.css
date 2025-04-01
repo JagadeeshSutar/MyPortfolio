@@ -12,7 +12,7 @@
   text-align: center;
 }
 
-/* @keyframes eduDetailAnimate {
+@keyframes eduDetailAnimate {
   from {
     opacity: 0;
     transform: translateX(200px);
@@ -21,7 +21,7 @@
     opacity: 1;
     transform: translateX(0);
   }
-} */
+}
 
 .eduDetails {
   height: 50vh;
@@ -36,7 +36,7 @@
   animation-range: entry 0 cover 30%;
 }
 
-/* @keyframes eduAnimate {
+@keyframes eduAnimate {
   from {
     opacity: 0;
     transform: translateX(-200px);
@@ -45,7 +45,7 @@
     opacity: 1;
     transform: translateX(0);
   }
-} */
+}
 
 .eduDetailsShadow {
   height: 50vh;
@@ -64,7 +64,14 @@
 
 @media (max-width: 576px) {
   .eduDetailsShadow {
-    display: none;
+    /* display: none; */
+    width: 90vw;
+    /* padding: 50px; */
+    border-radius: 20px;
+    margin-left: 20px;
+    position: absolute;
+    left: 0px;
+    margin-top: 100px;
   }
   .eduSection {
     height: 70vh;

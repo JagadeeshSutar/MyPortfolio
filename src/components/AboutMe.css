@@ -1,7 +1,7 @@
-/* @keyframes animate {
+@keyframes animate {
   from {
     opacity: 0;
-    scale: 0.5; do't forget to comment this
+    /* scale: 0.5; do't forget to comment this */
     background-color: white;
   }
   to {
@@ -9,7 +9,7 @@
     scale: 1;
     background-color: #222831;
   }
-} */
+}
 
 .connectBtn {
   border: none;
@@ -56,7 +56,7 @@
   animation-range: entry 0 cover 40%;
 } */
 
-/* @keyframes aboutmeAnimation {
+@keyframes aboutmeAnimation {
   from {
     transform: translateX(200px);
     opacity: 0;
@@ -65,7 +65,7 @@
     transform: translateX(0);
     opacity: 1;
   }
-} */
+}
 
 .aboutMe p {
   animation: aboutmeAnimation 3s ease-out forwards;
@@ -87,9 +87,9 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;////////////////////////////////////////////////////////////////
-} *
+} */
 
-/* @keyframes imageAnimation {
+@keyframes imageAnimation {
   from {
     opacity: 0;
     scale: 0.5;
@@ -100,7 +100,7 @@
     scale: 1;
     transform: translateX(0);
   }
-} */
+}
 
 .heroImage {
   width: 30vw;
@@ -114,11 +114,11 @@
 }
 
 @media (max-width: 576px) {
-  .aboutMe{
+  .aboutMe {
     display: flex;
     flex-direction: column;
   }
-  .aboutMeTag{
+  .aboutMeTag {
     font-size: 20px;
   }
   .aboutMe p {
@@ -126,21 +126,53 @@
     padding: 10px;
     text-align: left;
   }
-  .aboutMe{
+  .aboutMe {
     padding: 0;
     display: block;
     height: 100%;
     padding: 30px 0;
   }
-  .col-6{
+  .col-6 {
     width: 100%;
   }
-  .heroImage img{
+  @keyframes imageAnimation {
+    from {
+      opacity: 0;
+      /* scale: 0.5; */
+      transform: translateX(50px);
+    }
+    to {
+      opacity: 1;
+      /* scale: 1; */
+      transform: translateX(0);
+    }
+  }
+  .heroImage img {
     width: 300px;
     border-radius: 10px;
     margin-bottom: 20px;
+    animation: imageAnimation 3s ease-out forwards;
+    animation-timeline: view();
+    animation-range: entry 0 cover 80%;
   }
-  .connectBtn{
+  .connectBtn {
     width: 90vw;
+  }
+  @keyframes aboutmeAnimation {
+    from {
+      transform: translateX(50px);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  .aboutMe p {
+    animation: aboutmeAnimation 3s ease-out forwards;
+    animation-timeline: view();
+    animation-range: entry 0 cover 30%;
+    line-height: 2;
   }
 }

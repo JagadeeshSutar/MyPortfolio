@@ -8,6 +8,9 @@
   font-family: "Boldonse", system-ui;
   padding-top: 30vh;
 }
+.nameAnimate span{
+  display: none;
+}
 /* @keyframes appear {
   from {
     opacity: 1;
@@ -20,7 +23,7 @@
     clip-path: inset(0 0 0 0);
   }
 } */
-/* @keyframes appear {
+@keyframes appear {
   0% {
     opacity: 0;
     clip-path: inset(0 0 0 100%);
@@ -33,17 +36,19 @@
     opacity: 0;
     clip-path: inset(0 0 100% 0);
   }
-} */
+}
 
 .nameAnimate {
-  animation: d 3s ease-in-out forwards;
+  animation: appear 3s ease-in-out forwards;
 }
 
 @media (max-width: 576px) {
-  * {
-    animation: none;
+  .nameAnimate {
+    font-size: 50px;
+    padding-top: 40vh;
   }
-  .nameAnimate{
-    font-size: 25px;
+  .nameAnimate span {
+    display: block;
+    margin: 40px;
   }
 }

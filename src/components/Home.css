@@ -35,7 +35,7 @@ img {
   border-radius: 50%;
 }
 
-/* @keyframes greet1Animation {
+@keyframes greet1Animation {
   from {
     opacity: 0;
     transform: translateX(-100px);
@@ -44,7 +44,7 @@ img {
     opacity: 1;
     transform: translateX(0px);
   }
-} */
+}
 
 .greetingHeading h1 {
   font-size: 5rem;
@@ -62,7 +62,7 @@ img {
   z-index: 2;
 }
 
-/* @keyframes homeCircleAnimation {
+@keyframes homeCircleAnimation {
   from {
     transform: translateX(500px);
     border-radius: 5% 50% 5% 50%;
@@ -73,7 +73,7 @@ img {
     border-radius: 50% 5% 50% 5%;
     opacity: 1;
   }
-} */
+}
 
 .homeCircle {
   width: 50vw;
