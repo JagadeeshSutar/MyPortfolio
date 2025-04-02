@@ -166,6 +166,7 @@
   animation-timeline: view();
   animation-range: entry 0 cover 50%;
   transition: all 0.3s ease;
+  position: relative;
 }
 
 .rightBox:hover {
@@ -179,6 +180,19 @@
   border-radius: 0;
   margin-top: 30px;
   margin-left: 4vw;
+  z-index: 0;
+}
+
+#projectImage {
+  /* height: 40vh; */
+  position: relative;
+  width: 23vw;
+  height: 33vh;
+  margin: 0;
+  border-radius: 0;
+  margin-bottom: 100px;
+  margin-right: 24vw;
+  z-index: 1;
 }
 
 @media (max-width: 576px) {
@@ -248,5 +262,18 @@
   }
   .rightProjectCardText p {
     width: 100%;
+  }
+  .rightBox img {
+    height: 20vh;
+    width: 60vw;
+    margin-top: 30vh;
+    margin-left: 4vw;
+    z-index: 0;
+  }
+  .leftBox img {
+    height: 20vh;
+    width: 60vw;
+    margin-left: 7vw;
+    margin-top: 30vh;
   }
 }

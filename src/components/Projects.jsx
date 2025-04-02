@@ -18,12 +18,17 @@ function Projects() {
                 sit placeat sint.
               </p>
 
-              <a href="">Link</a>
-              <a href="">Name</a>
+              <a href="https://airbnb-43d3.onrender.com">Link</a>
+              <a href="https://github.com/JagadeeshSutar/airbnb">GitHub</a>
             </div>
             <div>
               <div className="leftBox">
-                <img src="../images/laptop.png" alt="" />
+                <img src="../images/laptop.png" alt="Project" />
+                <img
+                  src="../images/airbnb.png"
+                  id="projectImage"
+                  alt="Project Image"
+                />
               </div>
             </div>
           </div>
@@ -46,7 +51,7 @@ function Projects() {
               </p>
 
               <a href="">Link</a>
-              <a href="">Name</a>
+              <a href="https://github.com/JagadeeshSutar/Zerodha">GitHub</a>
             </div>
           </div>
         </div>

@@ -2,6 +2,7 @@
   position: sticky;
   top: 50px;
   background-color: rgba(195, 41, 41, 0.134);
+  z-index: 10;
 }
 
 .navbar-nav a {
@@ -10,14 +11,21 @@
   font-size: 14px;
   width: 120px;
   text-align: center;
-  background-color: rgba(37, 41, 41, 0.595);
+  background-color: rgba(8, 10, 10, 0.595);
   margin: 0 3px;
   border-radius: 7px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.navbar-nav a:hover {
+  background-color: rgba(86, 95, 95, 0.803);
+  color: white;
 }
 
 .menuContainer {
   padding: 10px;
+  width: 59vw;
   background-color: rgba(0, 0, 0, 0.086);
   border-radius: 10px;
 }
@@ -37,6 +45,8 @@
     justify-content: center;
     height: 100%;
     padding: 30px 20px;
+    width: 100vw;
+    border-radius: 0px;
   }
   .navbar-nav {
     height: 100vh;
@@ -64,7 +74,7 @@
   .custom-toggler {
     margin-left: auto; /* Pushes it to the right */
   }
-  .navbar-nav:nth-child(1){
+  .navbar-nav:nth-child(1) {
     margin-top: 30px;
   }
 }

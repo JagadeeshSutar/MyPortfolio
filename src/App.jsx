@@ -14,3 +14,17 @@ function App() {
 }
 
 export default App;
+
+// const btnClick = () => {
+//   let menuContainer = document.getElementsByClassName("menuContainer")[0];
+
+//   if (menuContainer) {
+//     let currentColor = window.getComputedStyle(menuContainer).backgroundColor;
+
+//     if (currentColor === "rgba(0, 0, 0, 0.086)") {
+//       menuContainer.style.backgroundColor = "white";
+//     } else {
+//       menuContainer.style.backgroundColor = "rgba(0, 0, 0, 0.086)";
+//     }
+//   }
+// };
