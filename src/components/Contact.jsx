@@ -32,7 +32,7 @@ function Contact() {
   return (
     <section className="contact">
       <form action="" onSubmit={onSubmit}>
-        <h2>Contact Form</h2>
+        <h2>Feedback Form</h2>
         <div className="input-box">
           <label htmlFor="">Full Name</label>
           <input

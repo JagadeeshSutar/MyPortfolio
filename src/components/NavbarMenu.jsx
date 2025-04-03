@@ -8,7 +8,13 @@ function NavbarMenu({ scrollToSection }) {
     // Scroll to section if it exists
     const sectionElement = document.getElementById(sectionId);
     if (sectionElement instanceof HTMLElement) {
-      sectionElement.scrollIntoView({ behavior: "smooth" });
+      const navbarHeight = document.querySelector(".navbar").offsetHeight; // Get navbar height
+      const extraOffset = -60;
+      const yOffset = -(navbarHeight + extraOffset); // Offset to prevent content from being hidden under navbar
+      const y =
+        sectionElement.getBoundingClientRect().top + window.scrollY + yOffset;
+
+      window.scrollTo({ top: y, behavior: "smooth" });
     } else {
       console.warn(`Section "${sectionId}" not found!`);
     }

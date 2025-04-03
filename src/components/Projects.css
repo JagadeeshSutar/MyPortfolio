@@ -186,7 +186,7 @@
     margin-left: 0px;
     width: 70vw;
     height: 50vh;
-    margin-left: 45px;
+    margin-left: 50px;
   }
   .rightBox {
     width: 70vw;
@@ -243,6 +243,23 @@
   }
   .rightProjectCardText p {
     width: 100%;
+  }
+  .rightBox img {
+    height: 20vh;
+    width: 70vw;
+    margin: 0;
+    border-radius: 0;
+    margin-top: 260px;
+    margin-left: 0vw;
+  }
+
+  .leftBox img {
+    height: 20vh;
+    width: 70vw;
+    margin: 0;
+    border-radius: 0;
+    margin-left: 1vw;
+    margin-top: 260px;
   }
   @keyframes leftProjectCardTextAnimation {
     from {

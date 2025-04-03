@@ -42,7 +42,6 @@ function MainContent() {
   return (
     <>
       <NavbarMenu scrollToSection={scrollToSection} />{" "}
-      {/* ✅ Pass scrollToSection here */}
       <div className="containerBody">
         <Navbar />
         <div ref={homeRef} id="home">
