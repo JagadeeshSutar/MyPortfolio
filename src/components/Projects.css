@@ -205,18 +205,13 @@
   .leftBox {
     margin-left: 0px;
     width: 70vw;
-    height: 50vh;
+    height: 60vh;
     margin-left: 50px;
   }
   .rightBox {
     width: 70vw;
-    height: 50vh;
+    height: 60vh;
     border-radius: 5px;
-    background-color: #545c6973;
-    animation: rightBoxAnimation 3s ease-out forwards;
-    animation-timeline: view();
-    animation-range: entry 0 cover 50%;
-    transition: all 0.3s ease;
   }
   .projects h1 {
     font-size: 20px;
@@ -249,6 +244,9 @@
     scale: 1;
     transition: all 0.3s ease;
   }
+  .leftProjectCardText:hover {
+    scale: 0.9;
+  }
   .leftProjectCardText p {
     width: 100%;
   }
@@ -259,7 +257,11 @@
     width: 90vw;
     text-align: end;
     text-align: end;
+    scale: 1;
     z-index: 2;
+  }
+  .rightProjectCardText:hover{
+    scale: 0.9;
   }
   .rightProjectCardText p {
     width: 100%;

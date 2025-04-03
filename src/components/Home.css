@@ -111,7 +111,7 @@ img {
 
 .download-btn:hover {
   background-color: #222831bc;
-  scale: 1.1;
+  scale: 1;
   padding: 11px 21px;
 }
 .mk-side-elements-container {
@@ -155,10 +155,7 @@ img {
     left: 10px;
     top: 150px;
   }
-  .downloadHead {
-    font-size: 1.5rem;
-    margin: 0;
-  }
+
   .divHome {
     width: 100vw;
     height: 50vh;
@@ -175,8 +172,8 @@ img {
     font-size: 14px;
   }
   .downloadHead {
-    font-size: 1.2rem;
-    margin-bottom: 15px;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
   }
   .resume {
     padding: 0;
@@ -185,12 +182,12 @@ img {
     display: flex;
     flex-direction: column;
     position: absolute;
-    left: 10px;
+    left: 30px;
     bottom: -70px;
   }
   .download-btn {
     text-align: center;
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
   @keyframes homeCircleAnimation {
     from {
@@ -204,7 +201,7 @@ img {
       opacity: 1;
     }
   }
-  .mk-side-elements-container{
+  .mk-side-elements-container {
     display: none;
   }
 }
