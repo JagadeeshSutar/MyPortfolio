@@ -4,6 +4,12 @@ import "./Home.css";
 function Home() {
   return (
     <div className="divHome row">
+      <div class="mk-side-elements-container mk-side-elements-right">
+        <div class="mk-side-elements-item">
+          <div class="mk-side-elements-text">jagadeeshsutar56883@gmail.com</div>
+        </div>
+        <div class="mk-side-elements-line"></div>
+      </div>
       <div className="col-6 textSection">
         <div className="greetingHeading">
           <h1>G'day, I am</h1>

@@ -24,6 +24,11 @@ function Projects() {
             <div>
               <div className="leftBox">
                 <img src="../images/laptop.png" alt="Project" />
+                <img
+                  src="../images/airbnb.png"
+                  alt="Project Image"
+                  className="leftProjectImage"
+                />
               </div>
             </div>
           </div>
@@ -33,6 +38,11 @@ function Projects() {
             <div>
               <div className="rightBox">
                 <img src="../images/laptop.png" alt="" />
+                <img
+                  src="../images/airbnb.png"
+                  alt="Project Image"
+                  className="rightProjectImage"
+                />
               </div>
             </div>
             <div className="rightProjectCardText">
@@ -67,6 +77,11 @@ function Projects() {
             <div>
               <div className="leftBox">
                 <img src="../images/laptop.png" alt="" />
+                <img
+                  src="../images/airbnb.png"
+                  alt="Project Image"
+                  className="leftProjectImage"
+                />
               </div>
             </div>
           </div>
@@ -76,6 +91,11 @@ function Projects() {
             <div>
               <div className="rightBox">
                 <img src="../images/laptop.png" alt="" />
+                <img
+                  src="../images/airbnb.png"
+                  alt="Project Image"
+                  className="rightProjectImage"
+                />
               </div>
             </div>
             <div className="rightProjectCardText">

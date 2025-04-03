@@ -114,6 +114,32 @@ img {
   scale: 1.1;
   padding: 11px 21px;
 }
+.mk-side-elements-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+.mk-side-elements-item {
+  margin: 20px 0;
+  cursor: pointer;
+}
+.mk-side-elements-text {
+  color: #545c69cf;
+  letter-spacing: 2px;
+  font-size: 15px;
+  -ms-writing-mode: tb-rl; /* For older IE versions */
+  writing-mode: vertical-lr;
+}
+
+.mk-side-elements-line {
+  display: block;
+  padding: 0;
+  width: 1px;
+  height: 90px;
+  margin: 0px 10px 0;
+  background-color: #545c69cf;
+}
 
 @media (max-width: 576px) {
   .greetingHeading h1 {
@@ -177,5 +203,8 @@ img {
       border-radius: 50% 5% 50% 5%;
       opacity: 1;
     }
+  }
+  .mk-side-elements-container{
+    display: none;
   }
 }
