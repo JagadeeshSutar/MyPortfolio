@@ -43,6 +43,11 @@ function MyContacts() {
           </div>
         </div>
       </div>
+      <h1 className="feedback">
+        "I’d love to hear your feedback! Feel free to share your thoughts
+        through the feedback form or connect with me anytime on
+        <a href="https://www.linkedin.com/in/jagadeesh-sutar/">LinkedIn</a> ."
+      </h1>
     </>
   );
 }

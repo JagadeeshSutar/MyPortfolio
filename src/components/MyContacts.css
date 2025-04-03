@@ -1,7 +1,7 @@
 .contactsContainer {
   width: 100vw;
   background-color: #222831;
-  height: 100vh;
+  height: 120vh;
   margin: 0;
 }
 
@@ -104,6 +104,18 @@
   animation-range: entry 0 cover 30%;
 }
 
+.feedback {
+  margin: 0;
+  font-size: 1.5rem;
+  text-align: center;
+  background-color: #222831;
+  padding: 90px 160px;
+}
+.feedback a {
+  text-decoration: none;
+  margin-left: 5px;
+}
+
 @media (max-width: 576px) {
   .contactsContainer {
     height: 50vh;
@@ -158,5 +170,12 @@
       transform: translateY(0);
       opacity: 1;
     }
+  }
+  .feedback {
+    margin: 0;
+    font-size: 1rem;
+    text-align: center;
+    background-color: #222831;
+    padding: 10px;
   }
 }

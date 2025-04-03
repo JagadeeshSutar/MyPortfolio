@@ -61,18 +61,18 @@
   scale: 1.1;
 }
 
-/* @keyframes leftBoxAnimation {
+@keyframes leftBoxAnimation {
   from {
     scale: 0.3;
-    transform: translateX(-200px); Don't forget to comment this line
+    /* transform: translateX(-200px); Don't forget to comment this line */
     opacity: 0;
   }
   to {
-    transform: translateX(0);
+    /* transform: translateX(0); */
     scale: 1;
     opacity: 1;
   }
-} */
+}
 
 .leftBox {
   width: 45vw;
@@ -99,7 +99,7 @@
   margin-top: 30px;
 }
 
-/* @keyframes rightProjectCardTextAnimation {
+@keyframes rightProjectCardTextAnimation {
   from {
     transform: translateX(200px);
     opacity: 0;
@@ -108,7 +108,7 @@
     transform: translateX(0);
     opacity: 1;
   }
-} */
+}
 
 .rightProjectCardText {
   color: white;
@@ -117,7 +117,7 @@
   text-align: end;
   text-align: end;
   z-index: 2;
-  animation: aboutmeAnimation 3s ease-out forwards;
+  animation: rightProjectCardTextAnimation 3s ease-out forwards;
   animation-timeline: view();
   animation-range: entry 0 cover 50%;
   scale: 1;
@@ -144,18 +144,18 @@
   cursor: pointer;
 }
 
-/* @keyframes rightBoxAnimation {
+@keyframes rightBoxAnimation {
   from {
     scale: 0.3;
-    transform: translateX(-200px); Don't forget to comment this particular line
+    /* transform: translateX(-200px); Don't forget to comment this particular line */
     opacity: 0;
   }
   to {
-    transform: translateX(0);
+    /* transform: translateX(0); */
     scale: 1;
     opacity: 1;
   }
-} */
+}
 
 .rightBox {
   width: 45vw;
@@ -166,7 +166,6 @@
   animation-timeline: view();
   animation-range: entry 0 cover 50%;
   transition: all 0.3s ease;
-  position: relative;
 }
 
 .rightBox:hover {
@@ -180,19 +179,6 @@
   border-radius: 0;
   margin-top: 30px;
   margin-left: 4vw;
-  z-index: 0;
-}
-
-#projectImage {
-  /* height: 40vh; */
-  position: relative;
-  width: 23vw;
-  height: 33vh;
-  margin: 0;
-  border-radius: 0;
-  margin-bottom: 100px;
-  margin-right: 24vw;
-  z-index: 1;
 }
 
 @media (max-width: 576px) {
@@ -254,26 +240,28 @@
     text-align: end;
     text-align: end;
     z-index: 2;
-    animation: aboutmeAnimation 3s ease-out forwards;
-    animation-timeline: view();
-    animation-range: entry 0 cover 50%;
-    scale: 1;
-    transition: all 0.3s ease;
   }
   .rightProjectCardText p {
     width: 100%;
   }
-  .rightBox img {
-    height: 20vh;
-    width: 60vw;
-    margin-top: 30vh;
-    margin-left: 4vw;
-    z-index: 0;
+  @keyframes leftProjectCardTextAnimation {
+    from {
+      transform: translateY(200px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
   }
-  .leftBox img {
-    height: 20vh;
-    width: 60vw;
-    margin-left: 7vw;
-    margin-top: 30vh;
+  @keyframes rightProjectCardTextAnimation {
+    from {
+      transform: translateY(200px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
   }
 }

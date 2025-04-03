@@ -27,7 +27,7 @@ function Home() {
         <div className="resume">
           <h1 className="downloadHead">Download Resume</h1>
           <a
-            href="https://drive.google.com/file/d/10fR6BuRVt48Ku1gNgLVirceuuRq9Joj-/view?usp=drive_link"
+            href="Jagadeesh_Sutar_Resume.pdf"
             download="Jagadeesh_Sutar_Resume.pdf"
             class="download-btn"
           >

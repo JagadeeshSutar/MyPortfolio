@@ -24,11 +24,6 @@ function Projects() {
             <div>
               <div className="leftBox">
                 <img src="../images/laptop.png" alt="Project" />
-                <img
-                  src="../images/airbnb.png"
-                  id="projectImage"
-                  alt="Project Image"
-                />
               </div>
             </div>
           </div>

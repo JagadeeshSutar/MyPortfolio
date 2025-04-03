@@ -28,3 +28,24 @@ export default App;
 //     }
 //   }
 // };
+
+// const handleButtonClick = (event, section) => {
+//   event.preventDefault();
+
+//   const sectionElement = document.getElementById(section);
+
+//   // Ensure the element exists before scrolling
+//   if (sectionElement instanceof HTMLElement) {
+//     sectionElement.scrollIntoView({ behavior: "smooth" });
+//   } else {
+//     console.warn(`Section "${section}" not found!`);
+//   }
+
+//   // Collapse the navbar after clicking a link
+//   const navbarToggler = document.querySelector(".navbar-toggler");
+//   const navbarCollapse = document.querySelector(".navbar-collapse");
+
+//   if (navbarToggler && navbarCollapse.classList.contains("show")) {
+//     navbarToggler.click(); // Simulates a click to close the navbar
+//   }
+// };

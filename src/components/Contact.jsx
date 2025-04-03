@@ -24,7 +24,7 @@ function Contact() {
     if (res.success) {
       Swal.fire({
         title: "Thank you!",
-        text: "Message sent successfully!",
+        text: "Your feedback will be considered!",
         icon: "success",
       });
     }

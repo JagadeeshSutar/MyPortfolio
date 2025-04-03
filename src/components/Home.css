@@ -134,25 +134,25 @@ img {
     margin: 0;
   }
   .divHome {
-  width: 100vw;
-  height: 50vh;
-  margin: 0;
-  margin-bottom: 40vh;
+    width: 100vw;
+    height: 50vh;
+    margin: 0;
+    margin-bottom: 40vh;
   }
-  .textSection{
+  .textSection {
     width: 100vw;
     margin-top: 0;
     height: 50px;
     padding: 0%;
   }
-  .textSection p{
+  .textSection p {
     font-size: 14px;
   }
-  .downloadHead{
+  .downloadHead {
     font-size: 1.2rem;
     margin-bottom: 15px;
   }
-  .resume{
+  .resume {
     padding: 0;
     margin: 0;
     width: 60vw;
@@ -162,10 +162,20 @@ img {
     left: 10px;
     bottom: -70px;
   }
-  .download-btn{
+  .download-btn {
     text-align: center;
     font-size: 1rem;
   }
-
-  
+  @keyframes homeCircleAnimation {
+    from {
+      transform: translateY(300px);
+      border-radius: 5% 50% 5% 50%;
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      border-radius: 50% 5% 50% 5%;
+      opacity: 1;
+    }
+  }
 }
