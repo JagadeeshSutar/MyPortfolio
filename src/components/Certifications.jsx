@@ -28,7 +28,7 @@ function Certifications() {
               </p>
             </div>
             <div className="col-6 certificate">
-              <img src="../images/certificate.jpeg" alt="" />
+              <img src="../images/sigmadevcert.jpg" alt="" />
             </div>
           </div>
           <div className="dsa row">
@@ -46,7 +46,7 @@ function Certifications() {
               </p>
             </div>
             <div className="col-6 certificate">
-              <img src="../images/certificate.jpeg" alt="" />
+              <img src="../images/sigmadevcert.jpg" alt="" />
             </div>
           </div>
         </div>
