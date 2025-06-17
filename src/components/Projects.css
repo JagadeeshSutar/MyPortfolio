@@ -205,12 +205,12 @@
   .leftBox {
     margin-left: 0px;
     width: 70vw;
-    height: 60vh;
+    height: 73vh;
     margin-left: 50px;
   }
   .rightBox {
     width: 70vw;
-    height: 60vh;
+    height: 70vh;
     border-radius: 5px;
   }
   .projects h1 {
@@ -231,6 +231,7 @@
     height: 100vw;
     width: 100vw;
     margin-bottom: 50px;
+    padding-bottom: 50px;
   }
   .leftProjectCardText {
     color: white;
@@ -271,7 +272,7 @@
     width: 70vw;
     margin: 0;
     border-radius: 0;
-    margin-top: 260px;
+    margin-top: 300px;
     margin-left: 0vw;
   }
 
@@ -280,7 +281,7 @@
     width: 70vw;
     margin: 0;
     border-radius: 0;
-    margin-top: 260px;
+    margin-top: 380px;
   }
   @keyframes leftProjectCardTextAnimation {
     from {
